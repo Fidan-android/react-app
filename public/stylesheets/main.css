@@ -1,0 +1,118 @@
+/* CSS document */
+
+* {
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffeedd;
+}
+
+div {
+    display: block;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.form {
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid #f0f0f0;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-title {
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.form hr {
+    background-color: #f4f4f4;
+    color: #f4f4f4;
+    height: 1px;
+    border: 0;
+}
+
+.todo_item {
+    margin-bottom: 40px;
+}
+
+.item_text {
+    color: #1d1d1d;
+    font-family: Arial, sans-serif;
+}
+
+.but {
+    display: inline;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    background-color: #fff;
+    outline: none;
+    float: right;
+    padding-top: 5px;
+    margin-top: -40px;
+    font-size: 12px;
+    color: black;
+}
+
+.but:active {
+    background-color: #EA2027;
+    color: #fff;
+    border: 1px solid #EA2027;
+}
+
+.create {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #f0f0f0;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.create textarea {
+    float: left;
+    width: 280px;
+    height: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #e3e4e6;
+    resize: none;
+}
+
+.new-but {
+    float: right;
+    width: 90px;
+    height: 22px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 4.8px;
+    font-size: 13px;
+    color: black;
+    margin-top: 3.5px;
+    outline: none;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+.new-but:active {
+    border: 1px solid green;
+    background-color: green;
+    color: #fff;
+}
